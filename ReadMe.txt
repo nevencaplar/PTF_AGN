@@ -1,4 +1,4 @@
-# Data from the paper:  Optical Variability of AGNs in the PTF/iPTF Survey (2017ApJ...834..111C) 
+#Data from the paper:  Optical Variability of AGNs in the PTF/iPTF Survey (2017ApJ...834..111C) 
 
 *************************************************************************************************************
 The time period covered by the dataset is until Feb 01 2015
