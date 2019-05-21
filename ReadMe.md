@@ -4,7 +4,7 @@
 The time period covered by the dataset is until Feb 01 2015
 *********************************************************************************************************
 
-Data file: https://www.dropbox.com/s/e3uxdoszdqjvxmc/Data.tar.gz?dl=0
+Data file: https://people.phys.ethz.ch/~caplarn/PTF/Data.tar.gz
 
 Each chip *.tar.gz file contains *.csv files with the light curves of the individual objects. The name of each file is InternalIdentificationNumber_RA_DEC.csv.
 
