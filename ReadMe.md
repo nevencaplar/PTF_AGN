@@ -54,4 +54,4 @@ As discussed in the paper, the calibration done in the paper is *relative* and i
 
 ## Help:
 
-For problems with the data or if something is not clear, send us an email at [email](mailto:ncaplar@princeton.edu).
+For problems with the data or if something is not clear, send us an [email](mailto:ncaplar@princeton.edu).
