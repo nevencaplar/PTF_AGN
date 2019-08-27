@@ -1,8 +1,5 @@
 # Data from the paper:  Optical Variability of AGNs in the PTF/iPTF Survey (2017ApJ...834..111C) 
 
-*************************************************************************************************************
-
-
 Data file: https://people.phys.ethz.ch/~caplarn/PTF/Data.tar.gz
 
 ## Short description:
@@ -22,7 +19,7 @@ Each file has a following structure:
 *** Re-calibration from Caplar+ 2016  <br/>
 **** From the initial PTF catalogue, Ofek+ 2012 <br/>
 
-## Import of the data:
+## Importing the data:
 
 In order to import the light-curves from *.csv files I recommend something like 
 
@@ -53,7 +50,7 @@ This will then give you `single_LC array` containg all the observed data, while 
 	
 ![Example data](https://www.dropbox.com/s/ofthk04nfub6cxl/Example.png?raw=1)
 
-As discussed in the paper, the calibration done in the paper is *relative* and in order to study variablity one should only considered the re-calibrated magnitudes (in the 3rd columns of the dataset), as we didnot use zeropoints in order to do absolute calibration. On the plot above I have added median value of zeropoints, determined in Ofek et al. 2012, in order to get roughly correct normalization of the mangitudes for the plotting purposes. 
+As discussed in the paper, the calibration done in the paper is *relative* and in order to study variablity one should only considered the re-calibrated magnitudes (in the 3rd columns of the dataset), as we did not use zeropoints in order to do absolute calibration. On the plot above I have added median value of zeropoints, determined in Ofek et al. 2012, in order to get roughly correct normalization of the mangitudes for the plotting purposes. 
 
 ## Help:
 
