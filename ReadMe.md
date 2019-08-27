@@ -35,4 +35,18 @@ In order to import the light-curves from *.csv files I recommend something like
         single_LC=np.array(single_LC)
 	
 	
-This will then give you `single_LC array` containg all the observed data, while the physical parameters are contained in separate `single_LC_physical_parameters array`.
+This will then give you `single_LC array` containg all the observed data, while the physical parameters are contained in separate `single_LC_physical_parameters array`. As an example, in order to see the data, with the x-axis showing the observation dates we could do:
+
+
+	single_LC_original_time=np.copy(single_LC)
+	single_LC_original_time[:,2]=single_LC_original_time[:,2]*(1+single_LC_physical_parameters[0])
+
+	plt.figure(figsize=(20,6))
+	plt.errorbar(single_LC_original_time[:,2],single_LC_original_time[:,3],yerr=single_LC_original_time[:,4],ls='',fmt='o')
+	plt.ylabel('magnitude',fontsize=18)
+	plt.xlabel('MJD',fontsize=18)
+	plt.xticks(fontsize=14)
+	plt.yticks(fontsize=14)
+	
+![Example data](https://www.dropbox.com/s/ofthk04nfub6cxl/Example.png?raw=1)
+
