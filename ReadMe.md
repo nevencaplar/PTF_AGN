@@ -5,7 +5,8 @@
 
 Data file: https://people.phys.ethz.ch/~caplarn/PTF/Data.tar.gz
 
-*************************************************************************************************************
+## Short description:
+
 When you un-tar the Data file, you will will presented with directories, contaning light-curves from each chip. Each chip directory contains *.csv files with the light curves of the individual objects. The name of each file is InternalIdentificationNumber_RA_DEC.csv. Note also that this is not the full dataset (up to April 2015), as the time period covered gere is until Feb 01 2015
 
 Each file has a following structure:
@@ -21,7 +22,8 @@ Each file has a following structure:
 *** Re-calibration from Caplar+ 2016  <br/>
 **** From the initial PTF catalogue, Ofek+ 2012 <br/>
 
-*********************************************************************************************************
+## Import of the data:
+
 In order to import the light-curves from *.csv files I recommend something like 
 
         single_LC=[]
@@ -52,3 +54,7 @@ This will then give you `single_LC array` containg all the observed data, while 
 ![Example data](https://www.dropbox.com/s/ofthk04nfub6cxl/Example.png?raw=1)
 
 As discussed in the paper, the calibration done in the paper is *relative* and in order to study variablity one should only considered the re-calibrated magnitudes (in the 3rd columns of the dataset), as we didnot use zeropoints in order to do absolute calibration. On the plot above I have added median value of zeropoints, determined in Ofek et al. 2012, in order to get roughly correct normalization of the mangitudes for the plotting purposes. 
+
+## Help:
+
+For problems with the data or if something is not clear, send us an email at [email](mailto:ncaplar@princeton.edu).
