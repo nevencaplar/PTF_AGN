@@ -4,7 +4,7 @@ Data file: https://people.phys.ethz.ch/~caplarn/PTF/Data.tar.gz
 
 ## Short description:
 
-When you un-tar the Data file, you will will presented with directories, contaning light-curves from each chip. Each chip directory contains *.csv files with the light curves of the individual objects. The name of each file is InternalIdentificationNumber_RA_DEC.csv. Note also that this is not the full dataset (up to April 2015), as the time period covered gere is until Feb 01 2015
+When you un-tar the Data file, you will will presented with directories, contaning light-curves from each chip. Each chip directory contains *.csv files with the light curves of the individual objects. The name of each file is InternalIdentificationNumber_RA_DEC.csv. Note also that this is not the full dataset (up to April 2015), as the time period covered here is until Feb 01 2015
 
 Each file has a following structure:
 
