@@ -1,6 +1,6 @@
 # Data from the paper:  Optical Variability of AGNs in the PTF/iPTF Survey (2017ApJ...834..111C) 
 
-Data file: https://people.phys.ethz.ch/~caplarn/PTF/Data.tar.gz
+Data file: https://epyc.astro.washington.edu/~ncaplar/Data.tar.gz
 
 ## Short description:
 
